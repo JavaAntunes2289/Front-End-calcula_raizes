@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de Raízes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/logo.png" alt="logo do aplicativo" > 
+            <h1>Resultado Rápido de Equação do Segundo Grau</h1>
+        </header>
+        <form id="form-atividade">
+            <input type="text" id="coeficiente-de-a" required placeholder="coeficiente de a"/>
+            <input type="text" id="coeficiente-de-b" required placeholder="coeficiente de b"/>
+            <input type="text" id="coeficiente-de-c" required placeholder="coeficiente de c"/>
+            <button type="submit">Calcular</button> 
+        </form>
+        <table cellspacing="0">
+            <thead>
+            <th > Valor de delta</th>
+            <th>x1</th>
+            <th> x2</th>
+        </thead>
+        <tbody>
+          
+        </tbody>
+        <tfoot>
+            <tr>
+                <td id="valor-de-delta"></td>
+                <td id="valor-de-x1"></td>
+                <td id="valor-de-x2"></td>
+            </tr>
+        </tfoot>
+        </table>
+
+    </div>
+    <script src="main.js" ></script>
+</body>
+</html>
